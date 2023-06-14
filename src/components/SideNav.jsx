@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {AiOutlineMenu, AiOutlineHome, AiFillCrown, AiOutlineTrophy, AiTwotoneThunderbolt} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineHome, AiOutlineTrophy, AiOutlineCrown, AiOutlineInstagram} from 'react-icons/ai'
 
 const SideNav = () => {
 const [nav, setNav] = useState(false)
@@ -19,7 +19,7 @@ const handleNav = () => {
               <span className='pl-4'>Home</span>
             </a>
             <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
-              <AiFillCrown size={20}/>
+              <AiOutlineCrown size={20}/>
               <span className='pl-4'>Performance</span>
             </a>
             <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
@@ -27,7 +27,7 @@ const handleNav = () => {
               <span className='pl-4'>Contact</span>
             </a>
             <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
-              <AiTwotoneThunderbolt size={20}/>
+              <AiOutlineInstagram size={20}/>
               <span className='pl-4'>Socials</span>
             </a>
           </div>
