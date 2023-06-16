@@ -18,24 +18,40 @@ const handleNav = () => {
               <AiOutlineHome size={20}/>
               <span className='pl-4'>Home</span>
             </a>
-            <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
+            <a href="#performance" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineCrown size={20}/>
               <span className='pl-4'>Performance</span>
             </a>
-            <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
+            <a href="#contact" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineTrophy size={20}/>
               <span className='pl-4'>Contact</span>
             </a>
-            <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
+            <a href="#socials" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curser-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineInstagram size={20}/>
               <span className='pl-4'>Socials</span>
             </a>
           </div>
         )
         : (
-          <div></div>
+          ''
         )
       }
+      <div className='md:block hidden fixed top-[25%] z-10'>
+        <div className='flex flex-col ml-2'>
+          <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+            <AiOutlineHome size={20}/>
+          </a>
+          <a href="#performance" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+            <AiOutlineCrown size={20}/>
+          </a>
+          <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+            <AiOutlineTrophy size={20}/>
+          </a>
+          <a href="#socials" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+            <AiOutlineInstagram size={20}/>
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
