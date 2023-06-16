@@ -14,7 +14,7 @@ const Main = () => {
       sequence={[
         'Roxanne and Tony',
         2000, 
-        'Producers',
+        'Producers based in SF, CA',
         2000,
         'Drag Performers',
         2000,
@@ -30,7 +30,7 @@ const Main = () => {
       repeat={Infinity}
     />
       </h2>
-      <div>
+      <div className="flex justify-center pt-6 max-w-[20] w-full">
           <FaInstagram className='cursor-pointer' size={20}/>
       </div>
     </div>
