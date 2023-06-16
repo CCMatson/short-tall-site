@@ -2,7 +2,7 @@
 import { TypeAnimation } from "react-type-animation"
 import {FaInstagram} from 'react-icons/fa'
 
-const Main = () => {
+const MainPage = () => {
   return (
     <div id='main' className="flex justify-center items-center h-screen" >
       <img className='max-h-full' src="https://i.imgur.com/Pq4kG2a.jpg" />
@@ -14,7 +14,7 @@ const Main = () => {
       sequence={[
         'Roxanne and Tony',
         2000, 
-        'Producers based in SF, CA',
+        'Producers Based In SF, CA',
         2000,
         'Drag Performers',
         2000,
@@ -40,4 +40,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainPage
