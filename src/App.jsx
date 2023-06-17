@@ -1,17 +1,17 @@
-// import { useState } from 'react'
-
 import SideNav from "./components/SideNav";
-import Main from "./components/MainPage";
+import MainPage from "./components/MainPage";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div>
       <SideNav />
-      <Main />
+      <MainPage />
       <About />
-      <Projects/>
+      <Projects />
+      <Contact />
     </div>
   );
 }

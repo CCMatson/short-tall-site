@@ -8,9 +8,9 @@ import RoxanneAndLysol from '../assets/ShortAndTallRoxanneAndLysol.jpg'
 
 const Projects = () => {
   return (
-    <div id='projects' className="max-w-[1040px] m-auto md:pl-20 py-16">
-      <h1 className="text-4xl font-bold text-center text-customBlue">Recent Projects</h1>
-      <p className="text-center py-8" >
+    <div id='performance' className="max-w-[1040px] m-auto md:pl-20 py-16">
+      <h1 className="text-4xl font-bold text-center text-customBlue font-luckiest-guy">Recent Projects</h1>
+      <p className="text-center py-8 font-merriweather" >
         This is where we will put some copy to summarize recent work. Who is Short and Tall Productions, and what do they do? Islands in the stream. That is what we are. No one in between.How can we be wrong? Sail away with me. To another world. And we rely on each other, ah ha. From one lover to another, ah ha.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">

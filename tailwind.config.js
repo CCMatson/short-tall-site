@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        'luckiest-guy': ['Luckiest Guy', 'cursive'],
+        'merriweather': ['Merriweather', 'sans-serif']
+      },
       colors: {
         customPurple: '#8338ec',
         customBlue: '#3a86ff',

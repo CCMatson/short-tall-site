@@ -23,7 +23,7 @@ const Data = [
 const About = () => {
   return (
     <div id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-customPurple my-2">
+      <h1 className="text-4xl font-bold text-center text-customPurple my-2 font-luckiest-guy">
         About
       </h1>
       {Data.map((item, idx) => (
