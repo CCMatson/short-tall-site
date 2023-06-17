@@ -12,7 +12,7 @@ const MainPage = () => {
       <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">We Are
       <TypeAnimation
       sequence={[
-        'Roxanne and Tony',
+        'Roxanne and Lysol',
         2000, 
         'Producers Based In SF, CA',
         2000,
