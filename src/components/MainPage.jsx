@@ -38,8 +38,12 @@ const MainPage = () => {
             />
           </h2>
           <div className="flex justify-center pt-6 max-w-[20] w-full">
-            <a href="http://www.instagram.com/shortandtallproductions"  target="_blank" rel="nooper noreferrer">
-            <FaInstagram className="cursor-pointer" size={40} />
+            <a
+              href="http://www.instagram.com/shortandtallproductions"
+              target="_blank"
+              rel="nooper noreferrer"
+            >
+              <FaInstagram className="cursor-pointer" size={20} />
             </a>
           </div>
         </div>
