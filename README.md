@@ -11,6 +11,9 @@
 
 # Ice Box and Upcoming Features
 [ ] Email sign up form
+
 [ ] Add custom text, colors, and high quality images
+
 [ ] Link to videos of performance
+
 [ ] Dark mode
